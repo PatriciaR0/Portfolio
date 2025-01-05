@@ -54,6 +54,12 @@ main {
     border: 2px solid #3c4a3b;
 }
 
+.circle:hover {
+    width: 260px;
+    height: 260px;
+    box-shadow: 0 0 10px 10px rgb(225, 221, 209);
+}
+
 .circle .top {
     flex: 1;
     background: white;

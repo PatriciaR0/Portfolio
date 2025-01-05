@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>21-es játék</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../projekt5/styles.css">
+</head>
+<body>
+    <header>
+        <button id="open">≡</button>
+        <h1>21-es játék (Blackjack)</h1>
+    </header>
+
+    <main>
+        <div id="sidebar" class="sidebar">
+            <div id="menu" class="menu">
+                <a href="../index.html">🏠 Főoldal</a>
+                <div class="projects-list">
+                    <div>
+                        <a href="../projekt1/bevlist.html">1. projekt</a>
+                    </div>
+                    <div>
+                        <a href="../projekt2/booklist.html">2. projekt</a>
+                    </div>
+                    <div>
+                        <a href="../projekt3/countdown.html">3. projekt</a>
+                    </div>
+                    <div>
+                        <a href="../projekt4/dicegame.html">4. projekt</a>
+                    </div>
+                    <div>
+                        <a href="../projekt5/21.html">5. projekt</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="game-board">
+            <div id="player-hand">
+                <h2>Játékos keze</h2>
+                <div id="player-cards"></div>
+                <div id="player-score"></div>
+            </div>
+            <div id="dealer-hand">
+                <h2>Osztó keze</h2>
+                <div id="dealer-cards"></div>
+                <div id="dealer-score"></div>
+            </div>
+            <div id="controls">
+                <button id="hit">Kérj kártyát</button>
+                <button id="stand">Megállok</button>
+                <button id="new-game">Új Játék</button>
+            </div>
+            <div id="result"></div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Készítette: Réperger Patrícia 2024</p>
+    </footer>
+
+    <script src="21.js"></script>
+</body>
+</html>

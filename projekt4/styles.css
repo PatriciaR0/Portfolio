@@ -1,0 +1,42 @@
+body {
+    background-color: #2c3e50;
+    background-image: url('dobokocka.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    text-shadow: 4px 4px 15px black;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+#rollButton {
+    margin-top: 80px;
+    margin-bottom:  50px;
+    font-size: 200px; 
+    background: none; 
+    border: none; 
+    cursor: pointer; 
+    text-shadow: 10px 10px 200px rgb(0, 0, 0);
+}
+
+.dice-result {
+    margin-top: 20px;
+
+    font-size: 2em;
+    font-weight: bold;
+    background-color: #3c4a3b; 
+    color: white; 
+    padding: 10px 15px; 
+    border-radius: 5px; 
+    display: revert;
+}
+.icon-button {
+    background-color: #fff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin: 10px;
+}
+

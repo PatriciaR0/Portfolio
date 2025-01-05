@@ -1,0 +1,35 @@
+body {
+    background-image: url('blackjack.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    text-shadow: 4px 4px 15px black;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+#game-board {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+#player-hand,
+#dealer-hand {
+    width: 40%;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: yellow;
+}
+.icon-button {
+    background-color: #fff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin: 10px;
+}

@@ -1,0 +1,73 @@
+body.countdown-page {
+    background: url('snowfall.gif') no-repeat center center fixed;
+    background-size: cover; 
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+    body.countdown-page header {
+        border-bottom: none;
+        border-bottom-left-radius: 140px;
+        border-bottom-right-radius: 140px;
+    }
+
+body.countdown-page header h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  width: max-content;
+}
+
+#countdown {
+    margin-top: 90px;
+    font-size: 5em;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 3px 3px 5px black;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 20vh;
+}
+.icon-button {
+    background-color: #fff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin: 10px;
+}
+#sidebar {
+    position: fixed;
+    left: -500px;
+    top: 0;
+    width: 150px;
+    height: 100%;
+    background-color: #3c4a3b;
+    color: white;
+    transition: left 0.3s;
+    padding: 20px;
+}
+
+
+#open {
+    position: fixed;
+    left: 20px;
+    top: 30px;
+}
+
+#sidebar.open {
+    left: 0;
+}
+
+#sidebar-content {
+    display: flex;
+    flex-direction: column;
+}
